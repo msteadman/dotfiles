@@ -1,23 +1,23 @@
 - defaults:
-  link:
-    relink: true
+    link:
+      relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
-  ~/.bash_aliases:
-  ~/.bash_profile:
-  ~/.bash_prompt:
-  ~/.bashrc:
-  ~/.flake8:
-  ~/.gitconfig:
-  ~/.pipenv-complete.bash:
-  ~/.vim:
-  ~/.vimrc:
+    ~/.bash_aliases:
+    ~/.bash_profile:
+    ~/.bash_prompt:
+    ~/.bashrc:
+    ~/.flake8:
+    ~/.gitconfig:
+    ~/.pipenv-complete.bash:
+    ~/.vim:
+    ~/.vimrc:
 
 - create:
-  ~/.ssh:
-    mode: 0700
+    ~/.ssh:
+      mode: 0700
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
