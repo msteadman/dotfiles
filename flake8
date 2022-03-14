@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 80
+ignore = E501,W503,D100,D101,D102,D103,D105,D106,D107
+select = E,F,W,C90,B,B950,D
