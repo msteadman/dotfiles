@@ -12,6 +12,7 @@
   ~/.flake8: flake8
   ~/.gitconfig:
   ~/.pipenv-complete.bash: pipenv-complete.bash
+  ~/.vim:
   ~/.vimrc:
 
 - create:
