@@ -5,13 +5,13 @@
 - clean: ['~']
 
 - link:
-  ~/.bash_aliases: bash_aliases
-  ~/.bash_profile: bash_profile
-  ~/.bash_prompt: bash_prompt
-  ~/.bashrc: bashrc
-  ~/.flake8: flake8
+  ~/.bash_aliases:
+  ~/.bash_profile:
+  ~/.bash_prompt:
+  ~/.bashrc:
+  ~/.flake8:
   ~/.gitconfig:
-  ~/.pipenv-complete.bash: pipenv-complete.bash
+  ~/.pipenv-complete.bash:
   ~/.vim:
   ~/.vimrc:
 
