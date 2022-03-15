@@ -11,6 +11,7 @@
     ~/.bashrc:
     ~/.flake8:
     ~/.gitconfig:
+    ~/.gitignore:
     ~/.pipenv-complete.bash:
     ~/.vim:
     ~/.vimrc:
