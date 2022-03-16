@@ -18,10 +18,6 @@ if [ -t 0 ]; then
         eval "$(pyenv init -)"
     fi
 
-    if command -v pipenv 1>/dev/null 2>&1; then
-        eval "$(_PIPENV_COMPLETE=bash_source pipenv)"
-    fi
-
     if command -v pipx 1>/dev/null 2>&1; then
         eval "$(register-python-argcomplete pipx)"
     fi
