@@ -1,5 +1,11 @@
 # .bashrc
 
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
