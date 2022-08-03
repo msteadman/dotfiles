@@ -9,7 +9,6 @@
     ~/.bash_profile:
     ~/.bash_prompt:
     ~/.bashrc:
-    ~/.flake8:
     ~/.gitconfig:
     ~/.gitignore:
     ~/.pipenv-complete.bash:
