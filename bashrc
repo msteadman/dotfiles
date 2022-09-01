@@ -19,7 +19,5 @@ if [ -t 0 ]; then
     bind '"\e[A":history-search-backward'
     bind '"\e[B":history-search-forward'
 
-    [ -r ~/.pipenv-complete.bash ] && source ~/.pipenv-complete.bash
-
     [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 fi
