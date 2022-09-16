@@ -4,10 +4,11 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
-CLICOLOR=1
-EDITOR=vim
-GREP_OPTIONS='--color=auto'
-PIPENV_SHELL_FANCY=1
+export CLICOLOR=1
+export EDITOR=vim
+export GREP_OPTIONS='--color=auto'
+export HOMEBREW_INSTALL_FROM_API=1
+export PIPENV_SHELL_FANCY=1
 # PIPENV_VENV_IN_PROJECT=1
 
 PATH=$HOME/.local/bin:$PATH
@@ -23,7 +24,7 @@ if [ -t 0 ]; then
         eval "$(register-python-argcomplete pipx)"
     fi
 
-    if command -v pipenv 1>/dev/null 2>%1; then
+    if command -v pipenv 1>/dev/null 2>&1; then
         eval "$(_PIPENV_COMPLETE=bash_source pipenv)"
     fi
 
@@ -33,6 +34,6 @@ if [ -t 0 ]; then
     fi
 fi
 
-export PATH EDITOR CLICOLOR PIPENV_SHELL_FANCY
+export PATH
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
