@@ -7,7 +7,7 @@ fi
 export CLICOLOR=1
 export EDITOR=vim
 export GREP_OPTIONS='--color=auto'
-export HOMEBREW_INSTALL_FROM_API=1
+# export HOMEBREW_INSTALL_FROM_API=1
 export PIPENV_SHELL_FANCY=1
 # PIPENV_VENV_IN_PROJECT=1
 
