@@ -18,6 +18,4 @@ unset file
 if [ -t 0 ]; then
     bind '"\e[A":history-search-backward'
     bind '"\e[B":history-search-forward'
-
-    [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 fi
