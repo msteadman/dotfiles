@@ -10,7 +10,10 @@ export GREP_OPTIONS='--color=auto'
 export PIPENV_SHELL_FANCY=1
 # PIPENV_VENV_IN_PROJECT=1
 
-eval "$(brew shellenv)"
+if type brew &>/dev/null; then
+    # done here because it modifies PATH
+    eval "$(brew shellenv)"
+fi
 
 PATH=$HOME/.local/bin:$PATH
 
