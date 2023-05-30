@@ -10,9 +10,13 @@ export GREP_OPTIONS='--color=auto'
 export PIPENV_SHELL_FANCY=1
 # PIPENV_VENV_IN_PROJECT=1
 
+# done here because it modifies PATH
 if type brew &>/dev/null; then
-    # done here because it modifies PATH
+    # intel
     eval "$(brew shellenv)"
+elif type /opt/homebrew/bin/brew &>/dev/null; then
+    # apple silicon
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 PATH=$HOME/.local/bin:$PATH
