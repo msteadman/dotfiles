@@ -11,8 +11,6 @@
     ~/.bashrc:
     ~/.gitconfig:
     ~/.gitignore:
-    ~/.vim:
-    ~/.vimrc:
 
 - create:
     ~/.ssh:

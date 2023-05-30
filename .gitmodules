@@ -2,21 +2,3 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
-[submodule "vim/pack/vendor/start/vim-colors-solarized"]
-	path = vim/pack/vendor/start/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
-[submodule "vim/pack/vendor/start/vim-fugitive"]
-	path = vim/pack/vendor/start/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
-[submodule "vim/pack/vendor/start/vim-flake8"]
-	path = vim/pack/vendor/start/vim-flake8
-	url = https://github.com/nvie/vim-flake8
-[submodule "vim/pack/vendor/start/vim-airline"]
-	path = vim/pack/vendor/start/vim-airline
-	url = https://github.com/vim-airline/vim-airline
-[submodule "vim/pack/vendor/start/vim-airline-themes"]
-	path = vim/pack/vendor/start/vim-airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes
-[submodule "vim/pack/vendor/opt/nginx.vim"]
-	path = vim/pack/vendor/opt/nginx.vim
-	url = https://github.com/chr4/nginx.vim.git
