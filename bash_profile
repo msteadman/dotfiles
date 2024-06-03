@@ -50,7 +50,6 @@ if [ -t 0 ]; then
 
     if command -v rbenv 1>/dev/null 2>&1; then
         eval "$(rbenv init -)"
-        export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
     fi
 fi
 
